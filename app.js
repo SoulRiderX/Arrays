@@ -68,14 +68,15 @@ var flag;
 for (var i = 0; i < fav.length; i++) {
   console.log('each item at each iteration:', fav[i])
 
-if (answer === fav[i]) {
-  alert('Well done!');
-  flag = true;
+  if (answer === fav[i]) {
+    alert('Well done!');
+    flag = true;
+    break;
   }
 }
 
 if (!flag) {
-  alert('Try again');
+  alert('nope wrong');
 }
 
 var number;
