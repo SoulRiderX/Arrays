@@ -1,19 +1,22 @@
 header {
   background: #444;
   color: #fff;
-  padding: 20px
+  padding: 20px;
+  border: solid;
 
 }
-
-/* css comment */
 
 h1 {
   font-size: 20px;
   margin-bottom: 20px;
-  color: blue;
 }
 
 body {
-  background: green;
-  
+  background: #888;
+  border: medium;
+}
+
+main {
+  background: #333;
+  color: #fff;
 }
